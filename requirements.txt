@@ -1,0 +1,13 @@
+# Núcleo da Inteligência Artificial
+groq>=0.11.0
+
+# Controle do PC (mouse, teclado, tela)
+pyautogui>=0.9.54
+pillow>=10.0.0
+pyperclip>=1.8.2
+
+# Monitores dos HUDs (CPU, RAM, Rede)
+psutil>=5.9.0
+
+# Interface TUI no Windows
+windows-curses>=2.3.0 ; sys_platform == "win32"
